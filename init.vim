@@ -18,6 +18,10 @@ set gcr=n-v-c:ver25-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cur
 
 nnoremap <F10> :NERDTreeToggle<CR>
 
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set expandtab
 set nu
 set clipboard+=unnamed
 " May need for vim (not neovim) since coc.nvim calculate byte offset by count
